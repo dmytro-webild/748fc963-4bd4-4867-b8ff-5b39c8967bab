@@ -157,7 +157,10 @@ export default function HomePage() {
           tag="Experience"
           tagIcon={Heart}
           tagAnimation="slide-up"
-          buttons={[{ text: "Book Your Celebration", href: "/events" }]}
+          buttons={[
+            { text: "Book Your Celebration", href: "/events" },
+            { text: "See Gallery", href: "#gallery" }
+          ]}
           buttonAnimation="slide-up"
           imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg?_wi=1"
           imageAlt="Friends celebrating at Blackheart Cafe"
