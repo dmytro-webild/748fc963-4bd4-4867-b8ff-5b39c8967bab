@@ -6,6 +6,7 @@ import MediaAbout from "@/components/sections/about/MediaAbout";
 import TestimonialCardTen from "@/components/sections/testimonial/TestimonialCardTen";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import Link from "next/link";
+import { Heart, Quote } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -15,7 +16,7 @@ export default function AboutPage() {
       borderRadius="pill"
       contentWidth="small"
       sizing="mediumSizeLargeTitles"
-      background="noise"
+      background="circleGradient"
       cardStyle="soft-shadow"
       primaryButtonStyle="diagonal-gradient"
       secondaryButtonStyle="radial-glow"
@@ -25,10 +26,10 @@ export default function AboutPage() {
         <NavbarStyleFullscreen
           navItems={[
             { name: "Home", id: "/" },
-            { name: "Menu", id: "menu" },
+            { name: "Menu", id: "/menu" },
             { name: "About", id: "/about" },
-            { name: "Reservations", id: "reservations" },
-            { name: "Contact", id: "contact" },
+            { name: "Reservations", id: "/reservations" },
+            { name: "Contact", id: "/contact" },
           ]}
           brandName="Blackheart Cafe"
           bottomLeftText="Where Gaya Comes to Chill"
@@ -41,16 +42,14 @@ export default function AboutPage() {
           title="Not Just a Cafe — It's a Vibe"
           description="Blackheart Cafe has become one of Gaya's favorite hangout spots. From relaxed coffee dates to birthday celebrations, people come here to enjoy great food, music, and an atmosphere that feels alive. Whether you're meeting friends, planning a date, or celebrating a special moment — we create the perfect setting."
           tag="Experience"
-          tagIcon="Heart"
+          tagIcon={Heart}
           tagAnimation="slide-up"
           buttons={[
             {
-              text: "Book Your Celebration",
-              href: "/events",
-            },
+              text: "Book Your Celebration",              href: "/events"},
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg?_wi=2"
+          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg"
           imageAlt="friends celebrating cafe happy moment"
           useInvertedBackground={false}
         />
@@ -61,55 +60,27 @@ export default function AboutPage() {
           title="Loved by Our Community"
           description="Real reviews from people who've made Blackheart Cafe their favorite hangout"
           tag="Testimonials"
-          tagIcon="Quote"
+          tagIcon={Quote}
           tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "1",
-              title: "Best Cafe in Gaya",
-              quote:
-                "Amazing ambience and good food. Perfect place to hang out with friends. The staff is friendly and the vibe is always positive.",
-              name: "Sumit Kumar",
-              role: "Local Visitor",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg?_wi=2",
-              imageAlt: "Sumit Kumar",
-            },
+              id: "1",              title: "Best Cafe in Gaya",              quote:
+                "Amazing ambience and good food. Perfect place to hang out with friends. The staff is friendly and the vibe is always positive.",              name: "Sumit Kumar",              role: "Local Visitor",              imageSrc:
+                "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg",              imageAlt: "Sumit Kumar"},
             {
-              id: "2",
-              title: "Perfect for Couples",
-              quote:
-                "Had a wonderful date here with my girlfriend. The cozy atmosphere, good music, and delicious food made it special. Definitely coming back!",
-              name: "Aman Kumar",
-              role: "Regular Customer",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg?_wi=2",
-              imageAlt: "Aman Kumar",
-            },
+              id: "2",              title: "Perfect for Couples",              quote:
+                "Had a wonderful date here with my girlfriend. The cozy atmosphere, good music, and delicious food made it special. Definitely coming back!",              name: "Aman Kumar",              role: "Regular Customer",              imageSrc:
+                "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg",              imageAlt: "Aman Kumar"},
             {
-              id: "3",
-              title: "Love the Decor",
-              quote:
-                "The interior design is stunning. It feels like a high-end cafe but the prices are affordable. Great for family hangouts too.",
-              name: "Mathan Kumar",
-              role: "Frequent Visitor",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg?_wi=2",
-              imageAlt: "Mathan Kumar",
-            },
+              id: "3",              title: "Love the Decor",              quote:
+                "The interior design is stunning. It feels like a high-end cafe but the prices are affordable. Great for family hangouts too.",              name: "Mathan Kumar",              role: "Frequent Visitor",              imageSrc:
+                "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg",              imageAlt: "Mathan Kumar"},
             {
-              id: "4",
-              title: "Birthday Party Success",
-              quote:
-                "Organized my birthday party here and it was fantastic. The team helped with decorations, the food was amazing, and my friends loved it. Highly recommended!",
-              name: "Priya Singh",
-              role: "Event Customer",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg?_wi=2",
-              imageAlt: "Priya Singh",
-            },
+              id: "4",              title: "Birthday Party Success",              quote:
+                "Organized my birthday party here and it was fantastic. The team helped with decorations, the food was amazing, and my friends loved it. Highly recommended!",              name: "Priya Singh",              role: "Event Customer",              imageSrc:
+                "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg",              imageAlt: "Priya Singh"},
           ]}
         />
       </div>
@@ -120,66 +91,39 @@ export default function AboutPage() {
           copyrightText="© 2025 Blackheart Cafe. All rights reserved."
           columns={[
             {
-              title: "Quick Links",
-              items: [
+              title: "Quick Links",              items: [
                 {
-                  label: "Home",
-                  href: "/",
-                },
+                  label: "Home",                  href: "/"},
                 {
-                  label: "Menu",
-                  href: "#menu",
-                },
+                  label: "Menu",                  href: "/menu"},
                 {
-                  label: "About Us",
-                  href: "/about",
-                },
+                  label: "About Us",                  href: "/about"},
                 {
-                  label: "Contact",
-                  href: "#contact",
-                },
+                  label: "Contact",                  href: "/contact"},
               ],
             },
             {
-              title: "Services",
-              items: [
+              title: "Services",              items: [
                 {
-                  label: "Birthday Parties",
-                  href: "/events",
-                },
+                  label: "Birthday Parties",                  href: "/events"},
                 {
-                  label: "Reserve Table",
-                  href: "#reservations",
-                },
+                  label: "Reserve Table",                  href: "/reservations"},
                 {
-                  label: "Private Events",
-                  href: "/events",
-                },
+                  label: "Private Events",                  href: "/events"},
                 {
-                  label: "Catering",
-                  href: "#contact",
-                },
+                  label: "Catering",                  href: "/contact"},
               ],
             },
             {
-              title: "Contact",
-              items: [
+              title: "Contact",              items: [
                 {
-                  label: "Call: 7903926787",
-                  href: "#",
-                },
+                  label: "Call: 7903926787",                  href: "#"},
                 {
-                  label: "Call: 7004607314",
-                  href: "#",
-                },
+                  label: "Call: 7004607314",                  href: "#"},
                 {
-                  label: "Email: info@blackheartcafe.com",
-                  href: "#",
-                },
+                  label: "Email: info@blackheartcafe.com",                  href: "#"},
                 {
-                  label: "Katari Hill Road, Gaya",
-                  href: "#",
-                },
+                  label: "Katari Hill Road, Gaya",                  href: "#"},
               ],
             },
           ]}
