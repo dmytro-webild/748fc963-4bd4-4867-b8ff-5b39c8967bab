@@ -49,7 +49,7 @@ export default function AboutPage() {
               text: "Book Your Celebration",              href: "/events"},
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg?_wi=2"
           imageAlt="friends celebrating cafe happy moment"
           useInvertedBackground={false}
         />
@@ -68,19 +68,19 @@ export default function AboutPage() {
             {
               id: "1",              title: "Best Cafe in Gaya",              quote:
                 "Amazing ambience and good food. Perfect place to hang out with friends. The staff is friendly and the vibe is always positive.",              name: "Sumit Kumar",              role: "Local Visitor",              imageSrc:
-                "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg",              imageAlt: "Sumit Kumar"},
+                "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg?_wi=2",              imageAlt: "Sumit Kumar"},
             {
               id: "2",              title: "Perfect for Couples",              quote:
                 "Had a wonderful date here with my girlfriend. The cozy atmosphere, good music, and delicious food made it special. Definitely coming back!",              name: "Aman Kumar",              role: "Regular Customer",              imageSrc:
-                "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg",              imageAlt: "Aman Kumar"},
+                "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg?_wi=2",              imageAlt: "Aman Kumar"},
             {
               id: "3",              title: "Love the Decor",              quote:
                 "The interior design is stunning. It feels like a high-end cafe but the prices are affordable. Great for family hangouts too.",              name: "Mathan Kumar",              role: "Frequent Visitor",              imageSrc:
-                "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg",              imageAlt: "Mathan Kumar"},
+                "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg?_wi=2",              imageAlt: "Mathan Kumar"},
             {
               id: "4",              title: "Birthday Party Success",              quote:
                 "Organized my birthday party here and it was fantastic. The team helped with decorations, the food was amazing, and my friends loved it. Highly recommended!",              name: "Priya Singh",              role: "Event Customer",              imageSrc:
-                "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg",              imageAlt: "Priya Singh"},
+                "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg?_wi=2",              imageAlt: "Priya Singh"},
           ]}
         />
       </div>
