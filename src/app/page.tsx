@@ -139,12 +139,12 @@ export default function HomePage() {
           products={[
             {
               id: "1",              brand: "Signature",              name: "Crispy Chicken",              price: "₹250",              rating: 5,
-              reviewCount: "2.1k",              imageSrc: "http://img.b2bpic.net/free-photo/crispy-chicken-with-ketchup-fresh-vegetable-salad_141793-2925.jpg",              imageAlt: "Crispy chicken platter"},
+              reviewCount: "2.1k",              imageSrc: "http://img.b2bpic.net/free-photo/fried-chicken-with-vegetables-herbs-aluminum-skillet_140725-3253.jpg?id=6778852",              imageAlt: "Crispy chicken platter"},
             {
               id: "2",              brand: "Signature",              name: "Biryani Special",              price: "₹300",              rating: 5,
               reviewCount: "1.9k",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-boiled-rice-plate-with-boiled-potatoes-pumpkin_141793-3942.jpg",              imageAlt: "Aromatic biryani rice"},
             {
-              id: "3",              brand: "Grill Masters",              name: "Grilled Chicken",              price: "₹280",              rating: 5,
+              id: "3",              brand: "Grill Masters",              name: "Grilled Chicken",              price: "₹289",              rating: 5,
               reviewCount: "1.7k",              imageSrc: "http://img.b2bpic.net/free-photo/steak-plate-with-vegetables-drink_23-2148167648.jpg",              imageAlt: "Perfectly grilled chicken"},
           ]}
         />
