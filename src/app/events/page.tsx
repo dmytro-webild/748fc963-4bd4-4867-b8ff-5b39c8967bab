@@ -49,27 +49,27 @@ export default function EventsPage() {
           features={[
             {
               title: "Interior Design",              description: "Stylish decor creating the perfect ambience",              imageSrc:
-                "http://img.b2bpic.net/free-photo/restaurant-private-room-with-table-14-persons-wooden-ceiling-brick-walls-fireplace_140725-8452.jpg",              imageAlt: "Cafe interior design",              buttonIcon: ArrowRight,
+                "http://img.b2bpic.net/free-photo/restaurant-private-room-with-table-14-persons-wooden-ceiling-brick-walls-fireplace_140725-8452.jpg?_wi=2",              imageAlt: "Cafe interior design",              buttonIcon: ArrowRight,
             },
             {
               title: "Food Excellence",              description: "Delicious dishes prepared with care",              imageSrc:
-                "http://img.b2bpic.net/free-photo/top-close-up-view-cake-cake-with-berries-jam-lemons-green-candies-cookies_140725-71815.jpg",              imageAlt: "Food plating and presentation",              buttonIcon: ArrowRight,
+                "http://img.b2bpic.net/free-photo/top-close-up-view-cake-cake-with-berries-jam-lemons-green-candies-cookies_140725-71815.jpg?_wi=2",              imageAlt: "Food plating and presentation",              buttonIcon: ArrowRight,
             },
             {
               title: "Social Gatherings",              description: "Perfect place for friends to meet",              imageSrc:
-                "http://img.b2bpic.net/free-photo/happy-excited-friends-reunited_23-2149165087.jpg",              imageAlt: "Friends enjoying time together",              buttonIcon: ArrowRight,
+                "http://img.b2bpic.net/free-photo/happy-excited-friends-reunited_23-2149165087.jpg?_wi=2",              imageAlt: "Friends enjoying time together",              buttonIcon: ArrowRight,
             },
             {
               title: "Birthday Celebrations",              description: "Memorable moments for special days",              imageSrc:
-                "http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg",              imageAlt: "Birthday party setup",              buttonIcon: ArrowRight,
+                "http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg?_wi=2",              imageAlt: "Birthday party setup",              buttonIcon: ArrowRight,
             },
             {
               title: "Evening Vibes",              description: "Romantic atmosphere in the evenings",              imageSrc:
-                "http://img.b2bpic.net/free-photo/guy-girl-hugging-each-other-background-night-port_1153-3421.jpg",              imageAlt: "Evening ambience and lighting",              buttonIcon: ArrowRight,
+                "http://img.b2bpic.net/free-photo/guy-girl-hugging-each-other-background-night-port_1153-3421.jpg?_wi=2",              imageAlt: "Evening ambience and lighting",              buttonIcon: ArrowRight,
             },
             {
               title: "Signature Drinks",              description: "Refreshing beverages and mocktails",              imageSrc:
-                "http://img.b2bpic.net/free-photo/woman-having-iced-coffee-break-outside_23-2149567283.jpg",              imageAlt: "Cold coffee and beverages",              buttonIcon: ArrowRight,
+                "http://img.b2bpic.net/free-photo/woman-having-iced-coffee-break-outside_23-2149567283.jpg?_wi=2",              imageAlt: "Cold coffee and beverages",              buttonIcon: ArrowRight,
             },
           ]}
         />
@@ -87,7 +87,7 @@ export default function EventsPage() {
               text: "Contact Us",              href: "#contact"},
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg?_wi=3"
           imageAlt="Birthday party decoration cafe setup"
           useInvertedBackground={false}
         />
