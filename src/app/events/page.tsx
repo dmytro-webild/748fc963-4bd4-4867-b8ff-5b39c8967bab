@@ -5,7 +5,7 @@ import NavbarStyleFullscreen from "@/components/navbar/NavbarStyleFullscreen/Nav
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import MediaAbout from "@/components/sections/about/MediaAbout";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Calendar } from "lucide-react";
 import Link from "next/link";
 
 export default function EventsPage() {
@@ -16,7 +16,7 @@ export default function EventsPage() {
       borderRadius="pill"
       contentWidth="small"
       sizing="mediumSizeLargeTitles"
-      background="noise"
+      background="circleGradient"
       cardStyle="soft-shadow"
       primaryButtonStyle="diagonal-gradient"
       secondaryButtonStyle="radial-glow"
@@ -26,10 +26,10 @@ export default function EventsPage() {
         <NavbarStyleFullscreen
           navItems={[
             { name: "Home", id: "/" },
-            { name: "Menu", id: "menu" },
+            { name: "Menu", id: "/menu" },
             { name: "About", id: "/about" },
-            { name: "Reservations", id: "reservations" },
-            { name: "Contact", id: "contact" },
+            { name: "Reservations", id: "/reservations" },
+            { name: "Contact", id: "/contact" },
           ]}
           brandName="Blackheart Cafe"
           bottomLeftText="Where Gaya Comes to Chill"
@@ -42,58 +42,34 @@ export default function EventsPage() {
           title="Gallery"
           description="Moments captured at Blackheart Cafe - where memories are made"
           tag="Gallery"
-          tagIcon="Camera"
+          tagIcon={ArrowRight}
           tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           features={[
             {
-              title: "Interior Design",
-              description: "Stylish decor creating the perfect ambience",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/restaurant-private-room-with-table-14-persons-wooden-ceiling-brick-walls-fireplace_140725-8452.jpg?_wi=2",
-              imageAlt: "Cafe interior design",
-              buttonIcon: ArrowRight,
+              title: "Interior Design",              description: "Stylish decor creating the perfect ambience",              imageSrc:
+                "http://img.b2bpic.net/free-photo/restaurant-private-room-with-table-14-persons-wooden-ceiling-brick-walls-fireplace_140725-8452.jpg",              imageAlt: "Cafe interior design",              buttonIcon: ArrowRight,
             },
             {
-              title: "Food Excellence",
-              description: "Delicious dishes prepared with care",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/top-close-up-view-cake-cake-with-berries-jam-lemons-green-candies-cookies_140725-71815.jpg?_wi=2",
-              imageAlt: "Food plating and presentation",
-              buttonIcon: ArrowRight,
+              title: "Food Excellence",              description: "Delicious dishes prepared with care",              imageSrc:
+                "http://img.b2bpic.net/free-photo/top-close-up-view-cake-cake-with-berries-jam-lemons-green-candies-cookies_140725-71815.jpg",              imageAlt: "Food plating and presentation",              buttonIcon: ArrowRight,
             },
             {
-              title: "Social Gatherings",
-              description: "Perfect place for friends to meet",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/happy-excited-friends-reunited_23-2149165087.jpg?_wi=2",
-              imageAlt: "Friends enjoying time together",
-              buttonIcon: ArrowRight,
+              title: "Social Gatherings",              description: "Perfect place for friends to meet",              imageSrc:
+                "http://img.b2bpic.net/free-photo/happy-excited-friends-reunited_23-2149165087.jpg",              imageAlt: "Friends enjoying time together",              buttonIcon: ArrowRight,
             },
             {
-              title: "Birthday Celebrations",
-              description: "Memorable moments for special days",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg?_wi=2",
-              imageAlt: "Birthday party setup",
-              buttonIcon: ArrowRight,
+              title: "Birthday Celebrations",              description: "Memorable moments for special days",              imageSrc:
+                "http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg",              imageAlt: "Birthday party setup",              buttonIcon: ArrowRight,
             },
             {
-              title: "Evening Vibes",
-              description: "Romantic atmosphere in the evenings",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/guy-girl-hugging-each-other-background-night-port_1153-3421.jpg?_wi=2",
-              imageAlt: "Evening ambience and lighting",
-              buttonIcon: ArrowRight,
+              title: "Evening Vibes",              description: "Romantic atmosphere in the evenings",              imageSrc:
+                "http://img.b2bpic.net/free-photo/guy-girl-hugging-each-other-background-night-port_1153-3421.jpg",              imageAlt: "Evening ambience and lighting",              buttonIcon: ArrowRight,
             },
             {
-              title: "Signature Drinks",
-              description: "Refreshing beverages and mocktails",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/woman-having-iced-coffee-break-outside_23-2149567283.jpg?_wi=2",
-              imageAlt: "Cold coffee and beverages",
-              buttonIcon: ArrowRight,
+              title: "Signature Drinks",              description: "Refreshing beverages and mocktails",              imageSrc:
+                "http://img.b2bpic.net/free-photo/woman-having-iced-coffee-break-outside_23-2149567283.jpg",              imageAlt: "Cold coffee and beverages",              buttonIcon: ArrowRight,
             },
           ]}
         />
@@ -104,16 +80,14 @@ export default function EventsPage() {
           title="Plan Your Celebration Here"
           description="From intimate gatherings to grand birthday bashes, Blackheart Cafe is the perfect venue for your special moments. Our dedicated team ensures every detail is perfect, from decorations to food arrangements. Contact us today to discuss your event and let us create memories that last a lifetime."
           tag="Book Now"
-          tagIcon="Calendar"
+          tagIcon={Calendar}
           tagAnimation="slide-up"
           buttons={[
             {
-              text: "Contact Us",
-              href: "#contact",
-            },
+              text: "Contact Us",              href: "#contact"},
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg?_wi=3"
+          imageSrc="http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg"
           imageAlt="Birthday party decoration cafe setup"
           useInvertedBackground={false}
         />
@@ -125,66 +99,39 @@ export default function EventsPage() {
           copyrightText="© 2025 Blackheart Cafe. All rights reserved."
           columns={[
             {
-              title: "Quick Links",
-              items: [
+              title: "Quick Links",              items: [
                 {
-                  label: "Home",
-                  href: "/",
-                },
+                  label: "Home",                  href: "/"},
                 {
-                  label: "Menu",
-                  href: "#menu",
-                },
+                  label: "Menu",                  href: "/menu"},
                 {
-                  label: "About Us",
-                  href: "/about",
-                },
+                  label: "About Us",                  href: "/about"},
                 {
-                  label: "Contact",
-                  href: "#contact",
-                },
+                  label: "Contact",                  href: "/contact"},
               ],
             },
             {
-              title: "Services",
-              items: [
+              title: "Services",              items: [
                 {
-                  label: "Birthday Parties",
-                  href: "/events",
-                },
+                  label: "Birthday Parties",                  href: "/events"},
                 {
-                  label: "Reserve Table",
-                  href: "#reservations",
-                },
+                  label: "Reserve Table",                  href: "/reservations"},
                 {
-                  label: "Private Events",
-                  href: "/events",
-                },
+                  label: "Private Events",                  href: "/events"},
                 {
-                  label: "Catering",
-                  href: "#contact",
-                },
+                  label: "Catering",                  href: "/contact"},
               ],
             },
             {
-              title: "Contact",
-              items: [
+              title: "Contact",              items: [
                 {
-                  label: "Call: 7903926787",
-                  href: "#",
-                },
+                  label: "Call: 7903926787",                  href: "#"},
                 {
-                  label: "Call: 7004607314",
-                  href: "#",
-                },
+                  label: "Call: 7004607314",                  href: "#"},
                 {
-                  label: "Email: info@blackheartcafe.com",
-                  href: "#",
-                },
+                  label: "Email: info@blackheartcafe.com",                  href: "#"},
                 {
-                  label: "Katari Hill Road, Gaya",
-                  href: "#",
-                },
+                  label: "Katari Hill Road, Gaya",                  href: "#"},
               ],
             },
           ]}
