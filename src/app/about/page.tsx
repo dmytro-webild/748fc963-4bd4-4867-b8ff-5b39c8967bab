@@ -50,7 +50,7 @@ export default function AboutPage() {
             },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg?_wi=2"
           imageAlt="friends celebrating cafe happy moment"
           useInvertedBackground={false}
         />
@@ -74,7 +74,7 @@ export default function AboutPage() {
               name: "Sumit Kumar",
               role: "Local Visitor",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg",
+                "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg?_wi=2",
               imageAlt: "Sumit Kumar",
             },
             {
@@ -85,7 +85,7 @@ export default function AboutPage() {
               name: "Aman Kumar",
               role: "Regular Customer",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg",
+                "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg?_wi=2",
               imageAlt: "Aman Kumar",
             },
             {
@@ -96,7 +96,7 @@ export default function AboutPage() {
               name: "Mathan Kumar",
               role: "Frequent Visitor",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg",
+                "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg?_wi=2",
               imageAlt: "Mathan Kumar",
             },
             {
@@ -107,7 +107,7 @@ export default function AboutPage() {
               name: "Priya Singh",
               role: "Event Customer",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg",
+                "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg?_wi=2",
               imageAlt: "Priya Singh",
             },
           ]}
