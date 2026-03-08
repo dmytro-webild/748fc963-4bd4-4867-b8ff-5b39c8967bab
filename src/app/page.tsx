@@ -88,7 +88,7 @@ export default function HomePage() {
           background={{ variant: "noise" }}
           leftCarouselItems={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/enjoying-cup-coffee_1098-17179.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/enjoying-cup-coffee_1098-17179.jpg?_wi=1",
               imageAlt: "Stylish cafe interior with warm lighting",
             },
             {
@@ -106,7 +106,7 @@ export default function HomePage() {
           ]}
           rightCarouselItems={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/chicken-croquettes-served-with-french-fries-mayo-ketchup_140725-10463.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/chicken-croquettes-served-with-french-fries-mayo-ketchup_140725-10463.jpg?_wi=1",
               imageAlt: "Crispy chicken signature dish",
             },
             {
@@ -114,11 +114,11 @@ export default function HomePage() {
               imageAlt: "Signature biryani",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/chocolate-panna-cotta_2829-12874.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/chocolate-panna-cotta_2829-12874.jpg?_wi=1",
               imageAlt: "Refreshing cold coffee",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/thai-style-spicy-meal-chicken-grilled-with-spicy-papaya-salad-cold-drink_1150-6311.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/thai-style-spicy-meal-chicken-grilled-with-spicy-papaya-salad-cold-drink_1150-6311.jpg?_wi=1",
               imageAlt: "Grilled chicken specialty",
             },
           ]}
@@ -170,7 +170,7 @@ export default function HomePage() {
               price: "₹250",
               rating: 5,
               reviewCount: "2.1k",
-              imageSrc: "http://img.b2bpic.net/free-photo/crispy-chicken-with-ketchup-fresh-vegetable-salad_141793-2925.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/crispy-chicken-with-ketchup-fresh-vegetable-salad_141793-2925.jpg?_wi=1",
               imageAlt: "Crispy chicken platter",
             },
             {
@@ -180,7 +180,7 @@ export default function HomePage() {
               price: "₹300",
               rating: 5,
               reviewCount: "1.9k",
-              imageSrc: "http://img.b2bpic.net/free-photo/top-view-boiled-rice-plate-with-boiled-potatoes-pumpkin_141793-3942.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/top-view-boiled-rice-plate-with-boiled-potatoes-pumpkin_141793-3942.jpg?_wi=1",
               imageAlt: "Aromatic biryani rice",
             },
             {
@@ -190,7 +190,7 @@ export default function HomePage() {
               price: "₹280",
               rating: 5,
               reviewCount: "1.7k",
-              imageSrc: "http://img.b2bpic.net/free-photo/steak-plate-with-vegetables-drink_23-2148167648.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/steak-plate-with-vegetables-drink_23-2148167648.jpg?_wi=1",
               imageAlt: "Perfectly grilled chicken",
             },
           ]}
@@ -206,7 +206,7 @@ export default function HomePage() {
           tagAnimation="slide-up"
           buttons={[{ text: "Book Your Celebration", href: "events" }]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/laughing-chatting-afterworks-meeting-with-coworkers-cozy-small-local-cafe_8353-10284.jpg?_wi=1"
           imageAlt="Friends celebrating at Blackheart Cafe"
           useInvertedBackground={false}
         />
@@ -228,7 +228,7 @@ export default function HomePage() {
               quote: "Amazing ambience and good food. Perfect place to hang out with friends. The staff is friendly and the vibe is always positive.",
               name: "Sumit Kumar",
               role: "Local Visitor",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-young-man-with-crossed-arms_176420-15567.jpg?_wi=1",
               imageAlt: "Sumit Kumar",
             },
             {
@@ -237,7 +237,7 @@ export default function HomePage() {
               quote: "Had a wonderful date here with my girlfriend. The cozy atmosphere, good music, and delicious food made it special. Definitely coming back!",
               name: "Aman Kumar",
               role: "Regular Customer",
-              imageSrc: "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/handsome-man-outdoors-portrait_158595-3563.jpg?_wi=1",
               imageAlt: "Aman Kumar",
             },
             {
@@ -246,7 +246,7 @@ export default function HomePage() {
               quote: "The interior design is stunning. It feels like a high-end cafe but the prices are affordable. Great for family hangouts too.",
               name: "Mathan Kumar",
               role: "Frequent Visitor",
-              imageSrc: "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/dreamer-stylish-macho-man-gray-suit-hat-glasses-posed-roof_627829-7653.jpg?_wi=1",
               imageAlt: "Mathan Kumar",
             },
             {
@@ -255,7 +255,7 @@ export default function HomePage() {
               quote: "Organized my birthday party here and it was fantastic. The team helped with decorations, the food was amazing, and my friends loved it. Highly recommended!",
               name: "Priya Singh",
               role: "Event Customer",
-              imageSrc: "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/thoughtful-blond-business-woman-sitting-couch_23-2148095700.jpg?_wi=1",
               imageAlt: "Priya Singh",
             },
           ]}
@@ -275,42 +275,42 @@ export default function HomePage() {
             {
               title: "Interior Design",
               description: "Stylish decor creating the perfect ambience",
-              imageSrc: "http://img.b2bpic.net/free-photo/restaurant-private-room-with-table-14-persons-wooden-ceiling-brick-walls-fireplace_140725-8452.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/restaurant-private-room-with-table-14-persons-wooden-ceiling-brick-walls-fireplace_140725-8452.jpg?_wi=1",
               imageAlt: "Cafe interior design",
               buttonIcon: ArrowRight,
             },
             {
               title: "Food Excellence",
               description: "Delicious dishes prepared with care",
-              imageSrc: "http://img.b2bpic.net/free-photo/top-close-up-view-cake-cake-with-berries-jam-lemons-green-candies-cookies_140725-71815.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/top-close-up-view-cake-cake-with-berries-jam-lemons-green-candies-cookies_140725-71815.jpg?_wi=1",
               imageAlt: "Food plating and presentation",
               buttonIcon: ArrowRight,
             },
             {
               title: "Social Gatherings",
               description: "Perfect place for friends to meet",
-              imageSrc: "http://img.b2bpic.net/free-photo/happy-excited-friends-reunited_23-2149165087.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/happy-excited-friends-reunited_23-2149165087.jpg?_wi=1",
               imageAlt: "Friends enjoying time together",
               buttonIcon: ArrowRight,
             },
             {
               title: "Birthday Celebrations",
               description: "Memorable moments for special days",
-              imageSrc: "http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/after-party-girls_23-2147640555.jpg?_wi=1",
               imageAlt: "Birthday party setup",
               buttonIcon: ArrowRight,
             },
             {
               title: "Evening Vibes",
               description: "Romantic atmosphere in the evenings",
-              imageSrc: "http://img.b2bpic.net/free-photo/guy-girl-hugging-each-other-background-night-port_1153-3421.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/guy-girl-hugging-each-other-background-night-port_1153-3421.jpg?_wi=1",
               imageAlt: "Evening ambience and lighting",
               buttonIcon: ArrowRight,
             },
             {
               title: "Signature Drinks",
               description: "Refreshing beverages and mocktails",
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-having-iced-coffee-break-outside_23-2149567283.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/woman-having-iced-coffee-break-outside_23-2149567283.jpg?_wi=1",
               imageAlt: "Cold coffee and beverages",
               buttonIcon: ArrowRight,
             },
