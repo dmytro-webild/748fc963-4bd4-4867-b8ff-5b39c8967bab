@@ -78,7 +78,7 @@ export default function MenuPage() {
           tagAnimation="slide-up"
           buttons={[{ text: "Reserve a Table", href: "reservations" }]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/enjoying-cup-coffee_1098-17179.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/enjoying-cup-coffee_1098-17179.jpg?_wi=2"
           imageAlt="Blackheart Cafe menu highlights"
           useInvertedBackground={false}
         />
@@ -100,7 +100,7 @@ export default function MenuPage() {
               price: "₹250",
               rating: 5,
               reviewCount: "2.1k",
-              imageSrc: "http://img.b2bpic.net/free-photo/crispy-chicken-with-ketchup-fresh-vegetable-salad_141793-2925.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/crispy-chicken-with-ketchup-fresh-vegetable-salad_141793-2925.jpg?_wi=2",
               imageAlt: "Crispy chicken platter",
             },
             {
@@ -110,7 +110,7 @@ export default function MenuPage() {
               price: "₹300",
               rating: 5,
               reviewCount: "1.9k",
-              imageSrc: "http://img.b2bpic.net/free-photo/top-view-boiled-rice-plate-with-boiled-potatoes-pumpkin_141793-3942.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/top-view-boiled-rice-plate-with-boiled-potatoes-pumpkin_141793-3942.jpg?_wi=2",
               imageAlt: "Aromatic biryani rice",
             },
             {
@@ -120,7 +120,7 @@ export default function MenuPage() {
               price: "₹280",
               rating: 5,
               reviewCount: "1.7k",
-              imageSrc: "http://img.b2bpic.net/free-photo/steak-plate-with-vegetables-drink_23-2148167648.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/steak-plate-with-vegetables-drink_23-2148167648.jpg?_wi=2",
               imageAlt: "Perfectly grilled chicken",
             },
             {
@@ -130,7 +130,7 @@ export default function MenuPage() {
               price: "₹150",
               rating: 5,
               reviewCount: "1.5k",
-              imageSrc: "http://img.b2bpic.net/free-photo/chocolate-panna-cotta_2829-12874.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/chocolate-panna-cotta_2829-12874.jpg?_wi=2",
               imageAlt: "Refreshing cold coffee",
             },
             {
@@ -140,7 +140,7 @@ export default function MenuPage() {
               price: "₹320",
               rating: 5,
               reviewCount: "1.3k",
-              imageSrc: "http://img.b2bpic.net/free-photo/thai-style-spicy-meal-chicken-grilled-with-spicy-papaya-salad-cold-drink_1150-6311.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/thai-style-spicy-meal-chicken-grilled-with-spicy-papaya-salad-cold-drink_1150-6311.jpg?_wi=2",
               imageAlt: "Tandoori chicken specialty",
             },
             {
@@ -150,7 +150,7 @@ export default function MenuPage() {
               price: "₹290",
               rating: 5,
               reviewCount: "1.8k",
-              imageSrc: "http://img.b2bpic.net/free-photo/chicken-croquettes-served-with-french-fries-mayo-ketchup_140725-10463.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/chicken-croquettes-served-with-french-fries-mayo-ketchup_140725-10463.jpg?_wi=2",
               imageAlt: "Creamy butter chicken",
             },
           ]}
